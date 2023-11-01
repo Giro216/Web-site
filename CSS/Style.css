@@ -1,17 +1,23 @@
 header{
-    position: fixed;
-    inset: 0;
     height: 80px;
-    flex-shrink: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .frame1{
-    position: relative;
-    display: inline-flex;
+    display: flex;
     height: 22px;
     align-items: center;
     gap: 5px;
-    flex-shrink: 0;
 }
 
 .rectangle1{
@@ -31,12 +37,8 @@ header{
 }
 
 .frame2{
-    display: inline-flex;
-    position: relative;
-    margin: auto;
-    left: auto;
+    display: flex;
     gap: 60px;
-    vertical-align: middle;
     color: #4C5866
 }
 
