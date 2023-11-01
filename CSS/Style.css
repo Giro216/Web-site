@@ -1,4 +1,58 @@
 header{
+    position: fixed;
+    inset: 0;
     height: 80px;
     flex-shrink: 0;
+}
+
+.frame1{
+    position: relative;
+    display: inline-flex;
+    height: 22px;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.rectangle1{
+    width: 32px;
+    height: 17px;
+    border-radius: 11px;
+    border: 1px solid #333;
+}
+
+.simple{
+    color: #333;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.frame2{
+    display: inline-flex;
+    position: relative;
+    margin: auto;
+    left: auto;
+    gap: 60px;
+    vertical-align: middle;
+    color: #4C5866
+}
+
+.frame2.text{
+    display: flex;
+    align-items: flex-start;
+}
+
+.frame3{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.frame3.search{
+    justify-content: center;
+    align-items: center;
 }
