@@ -11,6 +11,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .frame1{
@@ -58,3 +60,83 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+
+
+.page1{
+    position: relative;
+    width: 1440px;
+    height: 620px;
+}
+
+.page1 .container{
+    display: flex;
+    width: 1170px;
+    height: 620px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.page1 .wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 445px;
+    height: 361px;
+}
+
+.page1 .btn-secondary {
+    display: flex;
+    width: 255px;
+    height: 70px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;    
+    border: 1px solid #7875FE;
+  }
+  
+  .page1 .text-wrapper {
+    display: flex;
+    color: #7875fd;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .page1 .text-wrapper-2 {
+    display: flex;
+    width: 444px;
+    top: -1px;
+    left: 0;
+    color: #4b5766;
+    font-size: 60px;
+    line-height: 60px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+
+  .page1 .div {
+    display: flex;
+    width: 445px;
+    top: 149px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #85859b;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .page1 .layer-copy {
+    display: flex;
+    position: absolute;
+    width: 540px;
+    height: 560px;
+    top: 60px;
+    left: 735px;
+  }
