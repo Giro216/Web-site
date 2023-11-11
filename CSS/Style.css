@@ -8,11 +8,10 @@ header{
 }
 
 .line{
-    position: absolute;
+    position: relative;
     height: 1px;
-    top: 0;
-    left: 0;
-    background-color: #333;
+    top: 56px;
+    background-color: #dddddd;
 }
 
 .header_wrapper{
@@ -142,21 +141,26 @@ header{
     display: flex;
     position: relative;
     width: 540px;
-    height: 560px;
+    height: 559px;
+    top: 5%;
   }
 
 .page2{
-    height: 793px;
+    height: 973px;
     background-color: #ebebeb;
 }
 
 .page2 .container{
+    position: relative;
     display: flex;
-    width: 1110px;
+    width: 1170px;
+    height: 793px;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 90px;
+    top: 90px;
 }
 
 .page2 .block_1{
@@ -165,18 +169,18 @@ header{
     flex-direction: row;
     width: 1110px;
     height: 139px;
-    top: 90px;
+    /* top: 90px; */
     gap: 30px;
 }
 
-.page2 .frame1{
+.block_1 .frame1{
     position: relative;
     display: flex;
     width: 350px;
     height: 139px;
 }
 
-.page2 .rectangle{
+.block_1 .rectangle{
     position: absolute;
     width: 350px;
     height: 1px;
@@ -184,7 +188,7 @@ header{
     background-color:#c0c0c0;;
 }
 
-.page2 .section{
+.block_1 .section{
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -192,13 +196,13 @@ header{
     height: 118px;
 }
 
-.page2 .buissnes-cards{
+.block_1 .buissnes-cards{
     position: absolute;
     width: 160px;
     height: 118px;
 }
 
-.page2 .group{
+.block_1 .group{
     position: absolute;
     width: 164px;
     height: 81px;
@@ -206,7 +210,7 @@ header{
     left: 190px;
 }
 
-.page2 .text-wrapper {
+.block_1 .text-wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -219,7 +223,7 @@ header{
     white-space: nowrap;
   }
 
-.page2 .text-wrapper-2{
+.block_1 .text-wrapper-2{
     position: absolute;
     width: 160px;
     top: 27px;
@@ -231,24 +235,83 @@ header{
     letter-spacing: 0;
     line-height: 27px;
 }
+
+.block_1 .frame2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 139px;
+}
+
+.block_1 .frame3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 139px;
+}
+
 .page2 .block_2{
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     width: 1110px;
+    height: 564px;
+    gap: 30px;
+    
+}
+
+.block_2 .folder-open{
+    display: flex;
+    width: 730px;
     height: 564px;
 }
 
-.page2 .frame2{
-    position: relative;
+.block_2 .text-wrapper{
     display: flex;
-    align-items: center;
     width: 350px;
-    height: 139px;
+    height: 445px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.page2 .frame3{
-    position: relative;
+.block_2 .name{
     display: flex;
-    align-items: center;
     width: 350px;
-    height: 139px;
+    height: 74px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #666666;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 40px;
 }
+
+.block_2 .flexcontainer{
+    display: flex;
+    flex-direction: column;
+}
+  
+  .block_2 .text {
+    display: flex;
+    align-self: stretch;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #85859b;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 30.6px;
+  }
+  
+  .block_2 .span {
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #85859b;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 30.6px;
+  }
