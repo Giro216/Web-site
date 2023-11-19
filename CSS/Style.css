@@ -187,7 +187,7 @@ header{
     width: 350px;
     height: 1px;
     top: 0;
-    background-color:#c0c0c0;;
+    background-color:#c0c0c0;
 }
 
 .block_1 .section{
@@ -317,3 +317,158 @@ header{
     letter-spacing: 0;
     line-height: 30.6px;
   }
+
+  .page3{
+    height: 645px;
+    background-color: #ffffff;
+  }
+
+  .page3 .container{
+    position: relative;
+    display: flex;
+    width: 1440px;
+    height: 465px;
+    padding: 90px 165px;
+    margin: 0 auto;
+    /*flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;*/
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+.page3 .block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 255px;
+    height: 465px;
+}
+
+.page3 .block .group-wrapper{
+    display: flex;
+    height: 180px;
+    width: 255px;
+    background-color: #EBEBEB;
+}
+
+.page3 .block .group{
+    position: absolute;
+    top: 22px;
+    width: 255px;
+    height: 158px;
+}
+
+.page3 .block .YOUR-DESIGN-HERE{
+    position: absolute;
+    top: 29px;
+    left: 73px;
+    object-fit: cover;
+}
+
+.page3 .block .box{
+    position: absolute;
+    top: 29px;
+    object-fit: cover;
+}
+
+.page3 .block .light {
+    position: absolute;
+    left: 57px;
+    object-fit: cover;
+}
+
+.page3 .block .text-wrapper-2 {
+    position: absolute;
+    top: 242px;
+    left: 0;
+    color: #b5b5bd;
+    font-size: 14px;
+    line-height: normal;
+    white-space: nowrap;
+    font-family: ”Roboto-Regu1ar”, Helvetica;
+    font-weight: 40;
+    letter-spacing: 0;
+    
+}
+
+.page3 .block .text {
+    position: absolute;
+    width: 255px;
+    top: 266px;
+    left: 0;
+    color: #85859b;
+    font-size: 18px;
+    line-height: 30.6px;
+    font-family: "Roboto-Regular" , Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.page3 .block .text-wrapper {
+    position: absolute;
+    top: 199px;
+    left: 0;
+    color: #666666;
+    font-size: 30px;
+    line-height: normal;
+    white-space: nowrap;
+    font-family: "Roboto-Regular" , Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.page3 .block .txt-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 442px;
+    left: 0;
+}
+
+.page3 .block .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    color: #7875fd;
+    font-size: 20px;
+    line-height: normal;
+    white-space: nowrap;
+    font-family: "Roboto-Regular" , Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.page3 .block .arrow {
+    position: relative;
+    width: 21px;
+    height: 14.73px;
+    margin-right: -1px;
+}
+
+.page3 .block .Paper-Bag {
+    position: absolute;
+    bottom: 0px;
+    left: 6%;
+}
+
+.page3 .block .Briefcase {
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+}
+
+.page3 .block .Folder-with-Rubber {
+    position: absolute;
+    bottom: 1px;
+}
+
+.page3 .block .Box-v7 {
+    position: absolute;
+    left: 98px;
+    bottom: 0px;
+}
