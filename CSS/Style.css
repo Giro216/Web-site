@@ -468,3 +468,27 @@ header{
     left: 98px;
     bottom: 0px;
 }
+
+.page4{
+    display: flex;
+    align-items: center;
+    height: 315px;
+    background-color: #ebebeb;
+}
+
+.page4 .container{
+    display: flex;
+    height: 135px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.page4 .container .picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+    width: 255px;
+    border: 1px solid #C4C4C4;
+}
