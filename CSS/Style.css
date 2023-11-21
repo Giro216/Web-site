@@ -495,3 +495,103 @@ header .frame3.search{
     width: 255px;
     border: 1px solid #C4C4C4;
 }
+
+.page5{
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.page5 .p5_wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 410px;
+    padding-top: 90px;
+}
+
+.page5 .text-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    width: 350px;
+    height: 272px;
+}
+
+.page5 .text-wrapper .text-1{
+    display: flex;
+    color: #666;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 40px */
+}
+
+.page5 .text-wrapper .text-2{
+    display: flex;
+    color: #85859B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 30.6px */
+}
+
+.page5 .text-wrapper .btn-secondary {
+    display: flex;
+    position: relative;
+    top: 10px;
+    width: 255px;
+    height: 70px;
+    /* padding: 20px 50px; */
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid #7875FE;
+}
+
+.page5 .btn-secondary .text-3{
+    display: flex;
+    color: #7875FE;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.page5 .img-group{
+    display: flex;
+    position: relative;
+    width: 730px;
+    height: 410px;
+}
+
+.page5 .img-group .book-v4{
+    display: flex;
+    position: absolute;
+    width: 730px;
+    height: 555px;
+}
+
+.page5 .img-group .layer-2{
+    display: flex;
+    position: absolute;
+    top: 48px;
+    left: 329px;
+    bottom: -30px;
+    right: 30px;
+    width: 371px;
+    height: 362px;
+}
+
+.page5 .img-group .Vector{
+    display: flex;
+    position: absolute;
+    width: 67px;
+    height: 26px;
+    top: 63px;
+    left: 615px;
+    bottom: 48px;
+    right: 30px;
+}
