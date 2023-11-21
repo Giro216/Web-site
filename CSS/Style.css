@@ -595,3 +595,50 @@ header .frame3.search{
     bottom: 48px;
     right: 30px;
 }
+
+footer{
+    height: 80px;
+    background-color: #4C5866;
+}
+
+footer .footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+footer .footer_wrapper a{
+    text-decoration: none;
+}
+
+footer .frame1{
+    display: flex;
+    height: 22px;
+    align-items: center;
+    gap: 5px;
+}
+
+footer .rectangle1{
+    width: 32px;
+    height: 17px;
+    border-radius: 11px;
+    border: 1px solid #ffffff;
+}
+
+footer .simple{
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+footer .frame2{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+}
