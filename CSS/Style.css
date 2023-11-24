@@ -1,3 +1,4 @@
+/* 8E8C8C*/
 header{
     height: 80px;
 }
@@ -502,6 +503,69 @@ header .frame3.search{
     bottom: 0px;
 }
 
+.page3 .pop-up1{
+    position: absolute;
+    display: none;
+    height: 296px;
+    width: 590px;
+    left: 0;
+    bottom: -3%;
+    /* background-color: #D9D9D9; */
+}
+
+.page3 .pop-up1 .background{
+    position: absolute;
+    width: 590px; 
+    height: 296px; 
+    left: 0px; 
+    top: 0px; 
+    background: #D9D9D9; 
+    border-radius: 10px
+
+}
+
+.page3 .pop-up1 .close{
+    position: absolute;
+    cursor: pointer;
+    right: 1.5%;
+}
+
+.page3 .pop-up1 .btn-secondary{
+    position: absolute;
+    width: 264.94px;
+    height: 60px;
+    padding: 20px 50px;
+    left: 18%;
+    top: 61%;
+    border: 1px #7875FE solid;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    display: inline-flex
+}
+
+.page3 .pop-up1 .text-wrapper{
+    color: #7875FE; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.page3 .pop-up1 .text-wrapper3{
+    width: 571px;
+    /* height: 197px; */
+    left: 8px;
+    top: 12px;
+    position: absolute;
+    color: #555565;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 23px; 
+    word-wrap: break-word"
+}
+
 .page4{
     display: flex;
     align-items: center;
@@ -538,7 +602,7 @@ header .frame3.search{
     padding-top: 90px;
 }
 
-.page5 .text-wrapper{
+.page5 .text{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -547,7 +611,7 @@ header .frame3.search{
     height: 272px;
 }
 
-.page5 .text-wrapper .text-1{
+.page5 .text .text-1{
     display: flex;
     color: #666;
     font-family: Roboto;
@@ -557,7 +621,7 @@ header .frame3.search{
     line-height: 100%; /* 40px */
 }
 
-.page5 .text-wrapper .text-2{
+.page5 .text .text-2{
     display: flex;
     color: #85859B;
     font-family: Roboto;
@@ -567,7 +631,7 @@ header .frame3.search{
     line-height: 170%; /* 30.6px */
 }
 
-.page5 .text-wrapper .btn-secondary {
+.page5 .text .btn-secondary {
     display: flex;
     position: relative;
     top: 10px;
@@ -580,7 +644,7 @@ header .frame3.search{
     border: 1px solid #7875FE;
 }
 
-.page5 .btn-secondary .text-3{
+.page5 .btn-secondary .text-wrapper{
     display: flex;
     color: #7875FE;
     font-family: Roboto;
@@ -681,4 +745,8 @@ footer .frame2 .tg{
 footer .frame2 .vk{
     width: 24px;
     height: 24px;
+}
+
+.page3 .active{
+    display: block;
 }

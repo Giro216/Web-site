@@ -6,19 +6,28 @@ let last_block = 3;
 let Next_last_block;
 let Next_first_block;
 
-const blocks_col = document.querySelectorAll('.page3 .block');
-let block4 = blocks_col[1].cloneNode(true);
 
-// Изменяем содержимое элемента на текст и значения из четвертого блока
-block4.querySelector('img').remove();
-const new_img = document.createElement('img');
-new_img.className = "Papka";
-new_img.src = "img/Papka.png";
-block4.querySelector('.group').append(new_img);
-block4.querySelector('.text-wrapper').textContent = 'Папки';
-block4.querySelector('.text-wrapper-2').textContent = 'Тираж от 20 штук';
-block4.querySelector('.text').textContent = 'Папки для хранения документов в блочном формате. Изготовим по вашим предпочтениям в кратчайшие сроки.';
-block4.setAttribute('id', 'slider-block4');
+let block4 = document.createElement('div');
+block4.id="slider-block4";
+block4.className = "block";
+block4.innerHTML = `
+    <div class="group-wrapper">
+        <div class="group">
+            <img class="Papka" src="img/Papka.png" />
+        </div>
+    </div>
+    <div class="text-wrapper">Папки</div>
+    <div class="text-wrapper-2">Тираж от 20 штук </div>
+    <p class="text">
+        Папки для хранения документов в блочном формате. Изготовим по вашим предпочтениям в кратчайшие сроки.                            </p>
+    <div id="button4" class="txt-btn">
+        <div class="text-wrapper-3">Подробнее </div>
+        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+            <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+        </svg>
+    </div>
+`
+const blocks_col = document.querySelectorAll('.page3 .block');
 const blocks = Array.from(blocks_col);
 blocks.push(block4);
 
@@ -35,8 +44,6 @@ rightArrow.addEventListener('mouseenter', function(event){
     rightArrow.addEventListener('click', MoveRight);
 
 });
-
-
 
 // курсор покинул левую стрелку
 leftArrow.addEventListener('mouseleave', function(event) {
