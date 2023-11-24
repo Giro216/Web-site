@@ -22,8 +22,9 @@ header .header_wrapper{
     flex-wrap: wrap;
 }
 
-header .header_wrapper a{
+a{
     text-decoration: none;
+    color: inherit;
 }
 
 header .frame1{
