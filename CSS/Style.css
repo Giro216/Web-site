@@ -1,4 +1,7 @@
-/* 8E8C8C*/
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     height: 80px;
 }
