@@ -748,6 +748,11 @@ footer .frame2 .vk{
     height: 24px;
 }
 
+footer .frame2 .github{
+    width: 24px;
+    height: 24px;
+}
+
 .page3 .active{
     display: block;
 }
